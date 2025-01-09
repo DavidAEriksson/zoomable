@@ -1,0 +1,38 @@
+/* General page styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+#content {
+  padding: 20px;
+  height: 200vh; /* Simulate a scrollable page */
+  background-color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#zoomable {
+  width: 300px;
+  height: 300px;
+  margin: 50px auto;
+  background: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  touch-action: pan-y; /* Allow vertical scrolling by default */
+}
